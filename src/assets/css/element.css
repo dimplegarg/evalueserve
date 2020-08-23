@@ -1,0 +1,218 @@
+.navbar1 {
+    position: fixed;
+    min-height: 55px;
+    /* margin-bottom: 20px; */
+    border: 1px solid transparent;
+    border-bottom: 1px solid #afafaf;
+    width: 100%;
+    z-index: 999999;
+    background-color: #ffffff;
+}
+
+.logo {
+    width: 223px;
+    float: left;
+    height: 60px;
+    background-color: #404040;
+    margin-top: -1px;
+    margin-left: -16px;
+    color: #d6d6d6;
+}
+
+.mainContainer {
+    padding: 0 !important;
+}
+
+.homeContainer {
+    background-color: #000000;
+    color: #afafaf;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-content {
+    padding-left: 25px;
+    display: inline-block;
+    height: 100%;
+    min-height: 230px;
+    width: 100%;
+    padding-right: 25px;
+    padding-top: 25px;
+    margin-top: 60px;
+}
+
+.headingContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.headingContainer label {
+    display: flex;
+    cursor: pointer;
+}
+
+.headingContainer label input {
+    margin-right: 10px;
+}
+
+.taskContainer {
+    width: 100%;
+    height: 122px;
+    margin-bottom: 15px;
+}
+
+.taskDiv {
+    /* width: 140px; */
+    border: 1px solid #d8d8d8;
+    /* float: left; */
+    /* height: 100%; */
+    margin-right: 15px;
+    padding: 10px;
+    position: relative;
+}
+
+.smallLbl {
+    font-size: 11px;
+    font-weight: 100;
+    display: block;
+    margin: 0;
+    color: #7b7b7b;
+}
+
+.count {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    display: block;
+}
+
+.taskDivHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.userActionContainer {
+    flex: 0.03;
+    justify-content: space-between;
+    display: flex;
+}
+
+.userActionContainer img {
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.modalContainer {
+    display: flex;
+    position: fixed;
+    flex: 1;
+    background: rgb(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalBody {
+    background-color: #ffff;
+    padding: 20px;
+    position: relative;
+}
+
+.modalBody form {}
+
+.modalBody form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.modalClose {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.navbar-header {
+    width: calc(100% - 223px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar-header input {
+    width: 24em;
+    padding: 6px
+}
+
+table {
+    width: 100%;
+    border: 1px solid #a1a1a1;
+}
+
+table thead {
+    background-color: #7b7b7b;
+    color: #ffff
+}
+
+table tr td {
+    padding: 5px;
+    border: 1px solid #a1a1a1;
+}
+
+
+/* ---------------Game css-------------------- */
+
+.gameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.squares {
+    background: #272727;
+    border: none;
+    font-size: 5rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.X {
+    color: red;
+}
+
+.O {
+    color: green
+}
+
+.board {
+    border: 1px solid grey;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+    gap: 1px
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+.buttonContainer button {
+    padding: 8px 40px;
+    border-radius: 18px;
+}
+
+.logo {
+    padding: 20px 40px;
+}
